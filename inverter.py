@@ -4,6 +4,8 @@ class Inverter:
         self.lowercase_letters = lowercase_letters
 
     def invert(self):
+        if len(self.input_str) == 0:
+            return ""
         output_str = self.input_str[0]
         for i in range(1, len(self.input_str)):
             distance = self.lowercase_letters.index(self.input_str[i]) \

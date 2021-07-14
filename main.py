@@ -7,7 +7,7 @@ symbols = list()
 uppercase_locations = list()
 preserved_locations = dict()
 
-for i in range(0, 127):
+for i in range(0, 128):
     if i in range(48, 58):
         numbers.append(chr(i))
     elif i in range(65, 91):
